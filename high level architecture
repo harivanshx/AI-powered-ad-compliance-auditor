@@ -1,0 +1,3 @@
+User → FastAPI → Video Pipeline → Knowledge Retrieval → LLM Reasoning → Report
+                 ↓
+              Monitoring + Observability

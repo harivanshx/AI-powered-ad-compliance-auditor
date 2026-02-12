@@ -34,3 +34,11 @@ now we also perform monetioring for that we will use Azure application insights 
 from downloding ,transcripting,  indexing ,searching , reasoning etc if anything crashes we do know what went wrong 
 
 and for observability part we will be using langsmith
+
+
+YT URl -> Video -> Read Rulebook PDF -> Generate Report -> Pass / fail
+
+for this agentic system we will use langgrapgh 
+for infrastructre we will use Azure
+
+

@@ -1,0 +1,15 @@
+User
+ ↓
+FastAPI Gateway
+ ↓
+LangGraph Orchestrator
+ ↓
+Video Service → Azure Video Indexer
+ ↓
+Azure AI Search (PDF rules)
+ ↓
+GPT Reasoning Layer
+ ↓
+Report Storage
+ ↓
+Monitoring Layer
