@@ -1,0 +1,36 @@
+FAST API 
+DIFFERENT APIS
+
+
+PASTE A youtube url it is typically a video ad
+can be 30 seconds 
+then we do run the audit 
+signal to fast api backend 
+and it will check the video for me 
+
+it will generate a report 
+and find if the commerical follows the youtube guidelines for the advertisment
+
+
+well our system can not process the video like a human as it can not watch the video 
+
+so what we do is download the video from youtube 
+once the video is downloaded we will send that video to azure video indexer 
+now azure video indexer will watch video and extract some data from the transcript as what is said in the video and also play ocr on the video and read the claims which index those claims 
+once this is done we look at the retrevel(memory) part 
+so ai need laws before judging the video 
+so the data goes to azure ai search and it takes those two pdfs and now it perform a vector search to find the specific pages relevent to the video content 
+for example lets say if the video has sunscreen and then it look at the doc and find all the skincare rules from those docs 
+
+now what we have :
+ve have video text -> OCR, Transscript and then we do have our data for Laws in pdfs
+now what we do we give that data to llm in our case it will be gpt 4o and it read the transcript and compare with rules in pdf and then
+it checks the validations and also misleading claims by the brand 
+and finnaly what the langgraph build or what the projet build is a report ( vedict ) that if it pass or fails 
+
+well if something goes wrong (if the report generated faild) which means the video ad does not go or align with rules in the pdf then it shows the missing data or false claims 
+
+now we also perform monetioring for that we will use Azure application insights it moentor your prpject and tracks every step in your project 
+from downloding ,transcripting,  indexing ,searching , reasoning etc if anything crashes we do know what went wrong 
+
+and for observability part we will be using langsmith
