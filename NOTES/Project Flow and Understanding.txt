@@ -38,7 +38,57 @@ and for observability part we will be using langsmith
 
 YT URl -> Video -> Read Rulebook PDF -> Generate Report -> Pass / fail
 
+
+if fail then it will tell what went wrong
+
+
+
+
+AZURE AI Search is nothing but Vector DB smart search engine and it index the doc and find teh relevent infornmation and find the info with keywords and vector embeddigns
+
+in this project the azure ai search will act as knowledge base that store those pdfs
+
+so for this we will be doing is hybrid search that will help us 
+
+
+
+- If we go back to the application then we will find the 
+
+AZURE application insights - it will track and monitor all the things and it also generate the live maps 
+it also fchecks if the audit fail or pass
+so it also tell us what went wrong and when
+
+
+
+Langsmith - as it give us observability as it track the chain of thougts 
+
+it work with llms
+if it wwas the wrong rule or the prompt instruction was confusing 
+
+
+
+
+
+
+
+for storage we use azure storage account that will hold the video file 
+and we also use azure open ai 
+and azure ai search - remember the pdf data 
+
+
+
+
+
+
+
+
+
+
+
+
 for this agentic system we will use langgrapgh 
 for infrastructre we will use Azure
 
+
+We will also using the azure video indexer 
 
